@@ -23,17 +23,6 @@ This repository contains a highly configurable two-stage-tracker that adjusts to
 
 ## Before you run the tracker
 
-1. Clone the repository recursively:
-
-`git clone --recurse-submodules https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet.git`
-
-If you already cloned and forgot to use `--recurse-submodules` you can run `git submodule update --init`
-
-2. Make sure that you fulfill all the requirements: Python 3.8 or later with all [requirements.txt](https://github.com/mikel-brostrom/Yolov7_DeepSort_Pytorch/blob/master/requirements.txt) dependencies installed, including torch>=1.7. To install, run:
-
-`pip install -r requirements.txt`
-
-
 ## Tracking sources
 
 Tracking can be run on most video formats
@@ -107,12 +96,7 @@ python track.py --source ... --save-txt
 If you find this project useful in your research, please consider cite:
 
 ```latex
-@misc{yolov7-strongsort-osnet-2022,
-    title={Real-time multi-camera multi-object tracker using YOLOv7 and StrongSORT with OSNet},
-    author={Mikel Broström},
-    howpublished = {\url{https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet}},
-    year={2022}
-}
+
 ```
 
 ## Contact 
